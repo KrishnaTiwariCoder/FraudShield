@@ -49,6 +49,7 @@ function App() {
       });
 
       // Step 2: Analyze URL safety
+      // backend api of model
       const safetyResponse = await axios.post(
         "https://your-api-endpoint/analyze-url",
         {
